@@ -1,0 +1,4 @@
+```
+$ openssl aes-256-cbc -salt -a -d -in  env.enc -out env.tar.gz
+$ tar -xzvf env.tar.gz 
+```
