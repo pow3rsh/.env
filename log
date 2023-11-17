@@ -1,4 +1,11 @@
 ```
 $ openssl aes-256-cbc -salt -a -d -in  env.enc -out env.tar.gz
 $ tar -xzvf env.tar.gz 
+
+$ gpg --edit-key E0552D515D44029A54EC6970EB873B793AFD21EB
+
+- - - 
+
+>gpg trust
+
 ```
