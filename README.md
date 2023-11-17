@@ -8,4 +8,4 @@ To encrypt:
 
 To decrypt:
 
-    openssl aes-256-cbc -salt -a -d -in encrypted.txt -out plaintext.txt
+    openssl aes-256-cbc -salt -a -d -in env.enc -out env.tar.gz
